@@ -35,14 +35,14 @@ Accuracy = 95.8 %
 ## 如何使用
 在 LogisticRegression.py 檔案內，修改 test_data list 內容，然後執行程式。
 ```python
-    # 修改處
-    test_data = [1,0,1,0,1,0,1,0,1] 
-    print()
-    print(str(test_data), ":", round(predict(beta, test_data) * 100, 1), "%", end=' ')
-    if predict(beta, test_data) >= 0.5:
-        print("勝")
-    else:
-        print("敗")
+# 修改處
+test_data = [1,0,1,0,1,0,1,0,1] 
+print()
+print(str(test_data), ":", round(predict(beta, test_data) * 100, 1), "%", end=' ')
+if predict(beta, test_data) >= 0.5:
+    print("勝")
+else:
+    print("敗")
 ```
 
 ## 測試資料如何取得(範例舉例)
